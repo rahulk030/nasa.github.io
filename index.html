@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EONET - Earth Observatory Natural Event Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>EONET - Earth Observatory Natural Event Tracker</h1>
+  </header>
+  <main>
+    <button id="fetch-events">Get Current Natural Events</button>
+    <div id="loading" class="spinner"></div>
+    <div id="event-data"></div>
+  </main>
+  <aside id="aside">
+    <div id="greeting-message"></div>
+    <div id="greeting-time"></div>
+  </aside>
+  <footer>
+    <div class="footer-content">
+      <p>Powered by NASA EONET API</p>
+      <img src="nasa.png" alt="NASA Logo" class="nasa-logo">
+    </div>
+  </footer>
+  <script src="eonet.js"></script>
+</body>
+</html>
